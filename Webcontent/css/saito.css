@@ -1,0 +1,118 @@
+
+h1{
+	color: darkred;
+	font-size: 250%;
+	font-family: 'Pacifico', cursive;
+}
+
+.img{
+	padding: 10px;
+	width: 640px;
+	margin-left: 305px;
+}
+
+h1,h2,li{
+    text-align: center;
+}
+
+li{
+	list-style: none;
+	width: 33%;
+	float: left;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.ami{
+	width:640px;
+	margin-left: 440px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.image{
+	width: 33%;
+	float: left;
+}
+
+ul:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+ul{
+	padding: 0;
+}
+
+footer{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	border-bottom: solid 100px #000;
+}
+
+h2{
+	font-family: 'Pacifico', cursive;
+}
+
+section{
+	font-family: 'Bebas Neue', cursive;
+}
+
+.life{
+	width:600px;
+	padding: 50px;
+}
+
+.lifee,.mes,#top{
+	text-align: center;
+}
+
+li a{
+	color: #000;
+}
+
+li a:hover{
+   text-decoration: none;	
+}
+
+header{
+	border-top: solid 100px #000;
+}
+
+section{
+	box-shadow:0 0 5px 0 #ccc;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p img,th img{
+	border-radius: 10px;
+}
+
+.delay-time02{
+animation-delay: 0.2s;
+}
+
+.delay-time04{
+animation-delay: 0.4s;
+}
+
+.fadeUp {
+animation-name:fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity: 0;
+}
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+	transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+	transform: translateY(0);
+  }
+}

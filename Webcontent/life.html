@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="自己紹介サイト">
+<meta name="description" content="">
+<title>自己紹介サイト</title>
+<link href="css/saito.css" media="all" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1><a href="index.html">Watanabe Ami</a></h1>
+</header>
+<div>
+<nav>
+<ul>
+<li><a href="hometown.html">Home town</a></li>
+<li><a href="favorite.html">Favorite</a></li>
+<li><a href="life.html">life</a></li>
+</ul>
+</nav>
+<main>
+<h2>Life</h2>
+<p class="lifee">一人暮らし生活が始まってとても楽しいのでそれを紹介します!</p>
+<section class="box fadeUp">
+<table>
+<tr>
+<th class="life"><img src="img/chair-g1c63a2675_640.jpg" alt="椅子" width="100%" height="300px" ></th>
+<td class="tdd">一人暮らしのメリット<br>
+1.自由に生活できる<br>
+2.通勤・通学が便利になる<br>
+3.家事ができるようになる<br>
+4.親のありがたみを感じられる<br>
+5.部屋を自分好みに変えることができる<br>
+<tr>
+<tr>
+<th class="life"><img src="img/workplace-g147b3effb_640.jpg" alt="部屋" width="100%" height="300px" ></th>
+<td class="tdd">一人暮らしのデメリットも紹介します<br>
+1.お金がかかる<br>
+2.生活リズムが乱れやすくなる<br>
+3.病気やケガをした時が大変<br>
+4.防犯対策が必要な時もある<br>
+5.孤独や寂しさをたまに感じる</td>
+</tr>
+</table>
+</section>
+<h3 class="mes">Message</h3>
+<p class="mes">一人暮らしを始めてまだ少ししかたっていませんが、料理をしたりするのは楽しいです。<br>
+やってみないとわからないこともあると思うので思い切ってやってみるのもいいと思います。</p>
+</main>
+</div>
+<footer>
+<h3>Contact</h3>
+<p><a href="mailto:ami.watanabe@ks-japan.jp">Mail : ami.watanabe@ks-japan.jp</a></p>
+<p><a href="tel:03-1234-5678">Call : 03-1234-5678</a></p>
+<script>
+'use strict'
+$('#top').click(function () {
+    $('body,html').animate({
+        scrollTop: 0
+    }, 500);
+    return false;
+});
+</script>
+<p id="top"><a href="#">back to top page</a></p>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="saito.js"></script>
+</footer>
+</body>
+</html>    
